@@ -8,6 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -15,17 +16,29 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family:title-font;
+  src: url(../styles/Poppins/Poppins-Bold.ttf);
 }
-
+@font-face {
+  font-family:sub-title-font;
+  src: url(../styles/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family:body-font;
+  src: url(../styles/Poppins/Poppins-Regular.ttf);
+  font-size: 15px;
+}
+body {
+  background:#ccc;
+  font-family:body-font;
+}
+h1, h2{
+	font-family:title-font;
+}
+h3, h4, h5, h6{
+	font-family:sub-title-font;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
