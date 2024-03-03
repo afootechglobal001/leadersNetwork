@@ -30,7 +30,9 @@
   font-size: 15px;
 }
 body {
-  background:#ccc;
+  height: 100%;
+  margin: 0;
+  background:#fff;
   font-family:body-font;
 }
 h1, h2{
