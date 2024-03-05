@@ -109,7 +109,7 @@ export function Solutions({ title, text, btnText, url, img }) {
 export function FaqItem({ title }) {
   return (
     <>
-      <div className="w-[100%] p-[27px] bg-white rounded-[5px] flex flex-row justify-between cursor-pointer hover:bg-gray-100">
+      <div className="w-[100%] p-[27px] bg-white rounded-[5px] flex flex-row justify-between cursor-pointer hover:bg-gray-100 transition ease-in-out delay-150 shadow-[_0px_3px_12px_rgba(0,0,0,0.1)]">
         <h3 className="h-auto text-[17px] text-[#e6530f]">{title}</h3>
         <svg
           xmlns="http://www.w3.org/2000/svg"

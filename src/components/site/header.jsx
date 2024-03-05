@@ -58,7 +58,7 @@ export default function Header() {
         <NavLink url="/services" text="OUR SERVICES" />
         <NavLink url="/solutions" text="SOLUTIONS" />
         <NavLink url="/faq" text="FAQs" />
-        <NavLink url="/" text="CONTACT US" />
+        <NavLink url="/contact-us" text="CONTACT US" />
       </ul>
       <button className="bg-[#FF5100] h-[40px] px-3 rounded-[3px] text-white text-[14px] hover:text-[#fff] hover:bg-[#444444] transition ease-in-out delay-150" style={{ fontFamily: 'sub-title-font' }}>GET IN TOUCH</button>
     </nav>
