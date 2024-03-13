@@ -72,12 +72,12 @@ export default function Header() {
 export function HeaderContact({icon, title, text}) {
   return (
     <div className="flex flex-col gap-0 text-[13px] px-4">
-          <h3 className="text-[14px] flex gap-1 text-[#006EBB]">
-            {icon}
-            <span>{title}</span>
-          </h3>
-          <p>{text}</p>
-      </div>
+      <h3 className="text-[14px] flex gap-1 text-[#006EBB]">
+        {icon}
+        <span>{title}</span>
+      </h3>
+      <p>{text}</p>
+    </div>
   );
 }
 
